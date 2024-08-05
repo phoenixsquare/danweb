@@ -1,5 +1,5 @@
-/* Default styles for desktop */
-.header {
+.header{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,8 +8,10 @@
     padding-left: 250px;
     padding-right: 250px;
     font-family: Arial;
+    
 }
-.header-button {
+.header-button{
+    
     border: 1px solid black;
     font-size: 16px;
     padding-top: 5px;
@@ -19,21 +21,63 @@
     border-radius: 2px;
     box-shadow: 4px 4px black;
 }
+.danweb-container{
+    background-color: #e0ffff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #FFE0E0;
 
-/* Responsive styles for mobile */
-@media (max-width: 600px) {
-    .header {
-        margin-top: 5vw;  /* Adjusted to viewport units */
-        margin-bottom: 5vw;  /* Adjusted to viewport units */
-        padding-left: 5%;  /* Adjusted to percentage */
-        padding-right: 5%;  /* Adjusted to percentage */
-    }
-    .header-button {
-        font-size: 4vw;  /* Adjusted to viewport units */
-        padding-top: 1vw;  /* Adjusted to viewport units */
-        padding-bottom: 1vw;  /* Adjusted to viewport units */
-        padding-left: 2vw;  /* Adjusted to viewport units */
-        padding-right: 2vw;  /* Adjusted to viewport units */
-        box-shadow: 1vw 1vw black;  /* Adjusted to viewport units */
-    }
 }
+.danweb{
+    height: 200px;
+    margin-left: 30%;
+}
+.main{
+    font-family: Arial;
+    margin-top: 10px;
+    padding-top: 20px;
+
+    background-color: #eadcf5;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -5px 5px #E7F5DC;
+}
+.main-container{
+    width: 500px;
+    margin-left: 30%;
+   
+}
+
+
+.footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    padding-left: 250px;
+    padding-right: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(241, 187, 187);
+
+
+}
+.footer-content{
+    color: white;
+    
+    border: 1px solid white;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    box-shadow: 2px 2px white;
+    margin-bottom: 20px;
+
+}
+    
+    
