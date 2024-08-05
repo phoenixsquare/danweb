@@ -1,4 +1,5 @@
-.header{
+/* Default styles for desktop */
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,8 +9,7 @@
     padding-right: 250px;
     font-family: Arial;
 }
-.header-button{
-    
+.header-button {
     border: 1px solid black;
     font-size: 16px;
     padding-top: 5px;
@@ -18,4 +18,22 @@
     padding-right: 10px;
     border-radius: 2px;
     box-shadow: 4px 4px black;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+    .header {
+        margin-top: 5vw;  /* Adjusted to viewport units */
+        margin-bottom: 5vw;  /* Adjusted to viewport units */
+        padding-left: 5%;  /* Adjusted to percentage */
+        padding-right: 5%;  /* Adjusted to percentage */
+    }
+    .header-button {
+        font-size: 4vw;  /* Adjusted to viewport units */
+        padding-top: 1vw;  /* Adjusted to viewport units */
+        padding-bottom: 1vw;  /* Adjusted to viewport units */
+        padding-left: 2vw;  /* Adjusted to viewport units */
+        padding-right: 2vw;  /* Adjusted to viewport units */
+        box-shadow: 1vw 1vw black;  /* Adjusted to viewport units */
+    }
 }
